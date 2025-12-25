@@ -1,62 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-primary text-text-primary;
+  }
+
+  ::selection {
+    @apply bg-accent/30 text-accent;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-12 font-mono;
+  }
+
+  .title-number {
+    @apply text-accent mr-2;
+  }
+
+  .btn-primary {
+    @apply bg-accent text-primary px-6 py-3 rounded font-medium
+           hover:bg-transparent hover:text-accent hover:border hover:border-accent
+           transition-all duration-300 inline-flex items-center gap-2;
+  }
+
+  .btn-secondary {
+    @apply border border-accent text-accent px-6 py-3 rounded font-medium
+           hover:bg-accent hover:text-primary
+           transition-all duration-300 inline-flex items-center gap-2;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300
+           hover:-translate-y-2 hover:shadow-xl hover:shadow-accent/10;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-accent to-cyan-400
+           bg-clip-text text-transparent;
+  }
+}
+
+
 /* 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-@layer base {
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    @apply bg-primary text-text-primary;
-  }
-  
-  ::selection {
-    @apply bg-accent/30 text-accent;
-  }
-}
-
-@layer components {
-  .container-custom {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
-  
-  .section-padding {
-    @apply py-16 md:py-24;
-  }
-  
-  .section-title {
-    @apply text-3xl md:text-4xl font-bold mb-12 font-mono;
-  }
-  
-  .title-number {
-    @apply text-accent mr-2;
-  }
-  
-  .btn-primary {
-    @apply bg-accent text-primary px-6 py-3 rounded font-medium hover:bg-transparent hover:text-accent hover:border-accent hover:border transition-all duration-300 inline-flex items-center gap-2;
-  }
-  
-  .btn-secondary {
-    @apply border border-accent text-accent px-6 py-3 rounded font-medium hover:bg-accent hover:text-primary transition-all duration-300 inline-flex items-center gap-2;
-  }
-  
-  .card-hover {
-    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-accent/10;
-  }
-  
-  .gradient-text {
-    @apply bg-gradient-to-r from-accent to-cyan-400 bg-clip-text text-transparent;
-  }
-} 
-  
-*/
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -108,4 +113,4 @@
   .gradient-text {
     @apply bg-gradient-to-r from-accent to-cyan-400 bg-clip-text text-transparent;
   }
-}
+} */
