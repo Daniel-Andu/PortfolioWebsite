@@ -14,6 +14,25 @@ const projects = [
     image: '/images/Tana.png'
   },
   {
+    title:'E commerce market place ',
+    description:'Shop and order materials as you wish by visiting our beautifull website.',
+    tech:['Node.js','Mysql','React'],
+    github:'#',
+    live:' https://ecommerce-customer-site.vercel.app/',
+    image:'/images/ecommerce_customer.png'
+    
+  },
+
+  {
+    title:'E commerce admin dashboard',
+    description:'Managing all shops and orders made by customer',
+    tech:['Node.js','Mysql','React'],
+    github:'#',
+    live:' https://admin-side-chi.vercel.app/ ',
+    image:'images/ecommerce_admin.png'
+  },
+  
+  {
     title: 'Expense Tracker',
     description: 'A modern app that helps to record, categorize, and analyze personal or business spending.',
     tech: ['Next.js', 'TypeScript', 'Firebase', 'Tailwind CSS'],
