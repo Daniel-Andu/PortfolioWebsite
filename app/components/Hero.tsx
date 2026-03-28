@@ -69,7 +69,7 @@ export default function Hero() {
               {[Github, Linkedin, Twitter, Mail].map((Icon, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href="  https://github.com/Daniel-Andu "
                   className="p-3 border border-secondary rounded-lg
                              hover:border-accent hover:text-accent transition-colors"
                 >
