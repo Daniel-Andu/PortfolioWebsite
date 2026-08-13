@@ -46,7 +46,7 @@ const projects = [
     tech: ['node js', 'react', 'postgress'],
     github: '#',
     live: 'https://amharic-chatbot-customer-chat.vercel.app/',
-     image: '/images/chatbot.png' 
+     image: '/images/image.png' 
   },
   {
     title: 'To-Do List Application',
