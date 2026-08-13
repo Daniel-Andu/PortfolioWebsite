@@ -40,13 +40,13 @@ const projects = [
     live: 'https://expense-tracker-dani.vercel.app/',
     image: '/images/expense.png'
   },
-  {
-    title: 'Vehicle Management System',
-    description: 'System for managing university fleet with maintenance scheduling and reporting.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
+ {
+    title: 'Amharic support chatbot',
+    description: 'System for asking different questions in both amharic and english',
+    tech: ['node js', 'react', 'postgress'],
     github: '#',
-    live: '#',
-    // image: '/images/vehicle-management.jpg' 
+    live: 'https://amharic-chatbot-customer-chat.vercel.app/',
+     image: '/images/chatbot.png' 
   },
   {
     title: 'To-Do List Application',
