@@ -44,9 +44,9 @@ const projects = [
     title: 'Amharic support chatbot',
     description: 'System for asking different questions in both amharic and english',
     tech: ['node js', 'react', 'postgress'],
-    github: '#',
+    github: 'https://github.com/Daniel-Andu/Amharic-chatbot',
     live: 'https://amharic-chatbot-customer-chat.vercel.app/',
-     image: '/images/image.png' 
+    image: '/images/image.png' 
   },
   {
     title: 'To-Do List Application',
@@ -60,7 +60,7 @@ const projects = [
 
 export default function Projects() {
   const [showAll, setShowAll] = useState(false);
-  const displayedProjects = showAll ? projects : projects.slice(0, 4);
+  const displayedProjects = showAll ? projects : projects.slice(0, 6);
 
   return (
     <section id="projects" className="section-padding bg-gray-950">
